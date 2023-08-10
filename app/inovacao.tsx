@@ -1,6 +1,6 @@
 export default function Inovacao() {
   return (
-    <div className="flex items-center bg-gray-900 p-3 w-screen">
+    <div className="flex items-center bg-gray-900 p-3 w-screen" id="inovacao">
       <div className="min-h-full text-center">
         <h2 className="text-4xl m-4 font-semibold text-white">inovação</h2>
         <p className="text-xl font-medium text-white">

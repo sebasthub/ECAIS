@@ -1,6 +1,6 @@
 export default function Founders() {
   return (
-    <div className="flex-col items-center">
+    <div className="flex-col items-center" id="fundadores">
       <div className="w-screen text-center">
         <h2 className="text-4xl font-semibold m-4">fundadores</h2>
         <p className="text-xl font-medium m-2">
