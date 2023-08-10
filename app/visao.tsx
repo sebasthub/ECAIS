@@ -1,6 +1,6 @@
 export default function Visao() {
   return (
-    <div className="flex items-center m-4 w-screen">
+    <div className="flex items-center m-4">
       <img src="visao.svg" className="w-1/2" />
       <div className="min-h-full text-center">
         <h2 className="text-4xl m-4 font-semibold">visão</h2>
