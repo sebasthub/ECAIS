@@ -9,11 +9,16 @@ export const loader: LoaderFunction = async ({ request }) => {
 
 export default function Post() {
   const data = useLoaderData<typeof loader>();
+  console.log(data)
   return (
     <div className="bg-gray-900 h-screen w-full">
       <Layout data={data != null}>
-        <h2>aga2
-        </h2>
+        <div className="flex">
+            <div className="h-20 bg-white flex p-2">
+                <img src={data.pessoa.imagem}/>
+                <h2>ridge racer</h2>
+            </div>
+        </div>
       </Layout>
     </div>
   );

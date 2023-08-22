@@ -5,6 +5,7 @@ export default function Layout({children,data}: {children: React.ReactNode,data:
     return (
         <>
         <Navbar data = {data}></Navbar>
+        <div className="h-20"></div>
         {children}
         </>
     )
