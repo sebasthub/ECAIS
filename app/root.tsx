@@ -9,7 +9,8 @@ import {
 } from "@remix-run/react";
 
 import stylesheet from "~/tailwind.css";
-import Navbar from "./navbar";
+import Navbar from "./components/global/navbar";
+
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
@@ -25,7 +26,6 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Navbar></Navbar>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
